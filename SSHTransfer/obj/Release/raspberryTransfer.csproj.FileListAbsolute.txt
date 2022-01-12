@@ -1,0 +1,16 @@
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\raspberryTransfer.csproj.SuggestedBindingRedirects.cache
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\MainWindow.g.cs
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\App.g.cs
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\MainWindow.baml
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\raspberryTransfer.csproj.GenerateResource.cache
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\raspberryTransfer.csproj.CoreCompileInputs.cache
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\raspberryTransfer.csproj.AssemblyReference.cache
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\bin\Release\SSHTransfer.exe.config
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\bin\Release\SSHTransfer.exe
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\bin\Release\SSHTransfer.pdb
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer_MarkupCompile.cache
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer_MarkupCompile.lref
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer.g.resources
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer.Properties.Resources.resources
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer.exe
+C:\Users\yadeb\source\repos\raspberryTransfer\raspberryTransfer\obj\Release\SSHTransfer.pdb
