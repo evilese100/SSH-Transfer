@@ -28,4 +28,3 @@ C:\Users\yadeb\source\repos\SSHTransfer\SSHTransfer\obj\Debug\SSHTransfer.csproj
 C:\Users\yadeb\source\repos\SSHTransfer\SSHTransfer\obj\Debug\SSHTransfer.csproj.CoreCompileInputs.cache
 C:\Users\yadeb\source\repos\SSHTransfer\SSHTransfer\obj\Debug\SSHTransfer.exe
 C:\Users\yadeb\source\repos\SSHTransfer\SSHTransfer\obj\Debug\SSHTransfer.pdb
-C:\Users\yadeb\source\repos\SSHTransfer\SSHTransfer\obj\Debug\SSHTransfer.csproj.SuggestedBindingRedirects.cache
