@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SSHTransfer"
   ],
-  "SelectedNode": "\\C:\\Users\\yadeb\\Source\\Repos\\SSH-Transfer",
+  "SelectedNode": "\\SSHTransfer\\App.config",
   "PreviewInSolutionExplorer": false
 }

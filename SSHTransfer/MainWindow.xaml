@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SSHTransfer"
         mc:Ignorable="d"
         Background="DimGray"
-        Title="SSH Transfer" Height="339" Width="583" ResizeMode="CanMinimize">
+        Title="SSH Transfer" Height="356" Width="645.848" ResizeMode="CanMinimize">
     <Window.Resources>
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
         <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>
@@ -154,17 +154,22 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <TextBox x:Name="file_path" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="13,185,0,0" TextWrapping="Wrap" Text="Введите путь к файлу" VerticalAlignment="Top" Width="402" Height="26" FontFamily="Verdana" FontSize="16"/>
-        <Button x:Name="find_file" Content="Найти файл" Foreground="White" Background="OrangeRed" HorizontalAlignment="Left" Margin="437,185,0,0" VerticalAlignment="Top" Height="26" Width="100" FontFamily="Verdana" FontWeight="Bold" Click="find_file_Click"/>
-        <TextBox x:Name="ip_address" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,32,0,0" TextWrapping="Wrap" Text="IP-адрес сервера" VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
-        <Label Content="Введите адрес сервера: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,29,0,0" VerticalAlignment="Top" Width="232" FontFamily="Verdana"/>
-        <Label Content="Введите пароль пользователя: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,93,0,0" VerticalAlignment="Top" Width="230" FontFamily="Verdana"/>
-        <TextBox x:Name="path_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="13,136,0,0" TextWrapping="Wrap" Text="Путь на сервере" VerticalAlignment="Top" Width="402" Height="26" FontFamily="Verdana" FontSize="16"/>
-        <Button x:Name="run_tr" Foreground="White" Background="OrangeRed" Content="Передать файл" HorizontalAlignment="Center" Margin="0,249,0,0" VerticalAlignment="Top" Height="33" Width="216" FontFamily="Verdana" FontSize="20" FontWeight="Bold" Click="run_tr_Click"/>
-        <PasswordBox x:Name="passwd_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,99,0,0"  VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14"/>
-        <Button x:Name="save_par" Foreground="White" Background="#68a0a4" Content="Сохранить конфиг" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Height="33" Width="140" Click="save_par_Click"/>
-        <Button x:Name="clear_par" Foreground="White" Background="#68a0a4" Content="Стереть конфиг" HorizontalAlignment="Left" Margin="419,249,0,0" VerticalAlignment="Top" Height="33" Width="140" Click="clear_par_Click"/>
-        <Label Content="Введите имя пользователя: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,63,0,0" VerticalAlignment="Top" Width="230" FontFamily="Verdana"/>
-        <TextBox x:Name="user_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,66,0,0" TextWrapping="Wrap" Text="Имя пользователя" VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
+        <TextBox x:Name="file_path" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="13,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" Height="20" FontFamily="Verdana" FontSize="16"/>
+        <Button x:Name="find_file" Content="File selection" Foreground="White" Background="OrangeRed" HorizontalAlignment="Left" Margin="437,185,0,0" VerticalAlignment="Top" Height="26" Width="100" FontFamily="Verdana" FontWeight="Bold" Click="find_file_Click"/>
+        <TextBox x:Name="ip_address" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
+        <Label Content="Enter server IP: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,29,0,0" VerticalAlignment="Top" Width="232" FontFamily="Verdana"/>
+        <Label Content="Enter user's password: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,93,0,0" VerticalAlignment="Top" Width="230" FontFamily="Verdana"/>
+        <TextBox x:Name="path_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="13,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" Height="22" FontFamily="Verdana" FontSize="16"/>
+        <Button x:Name="run_tr" Foreground="White" Background="OrangeRed" Content="File transfer" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Height="33" Width="216" FontFamily="Verdana" FontSize="20" FontWeight="Bold" Click="run_tr_Click"/>
+        <PasswordBox x:Name="passwd_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,96,0,0"  VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
+        <Button x:Name="save_par" Foreground="White" Background="#68a0a4" Content="Save profile" HorizontalAlignment="Left" Margin="13,273,0,0" VerticalAlignment="Top" Height="33" Width="140" Click="save_par_Click"/>
+        <Button x:Name="clear_par" Foreground="White" Background="#68a0a4" Content="Clear profile" HorizontalAlignment="Left" Margin="473,273,0,0" VerticalAlignment="Top" Height="33" Width="140" Click="clear_par_Click"/>
+        <Label Content="Enter username: " Foreground="Orange" HorizontalAlignment="Left" Margin="23,63,0,0" VerticalAlignment="Top" Width="230" FontFamily="Verdana"/>
+        <TextBox x:Name="user_s" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="265,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
+        <ComboBox x:Name="profile_ls" HorizontalAlignment="Left" Margin="482,43,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_Selected"/>
+        <Label Content="Enter path on server" Foreground="Orange" HorizontalAlignment="Left" Margin="437,137,0,0" VerticalAlignment="Top" Width="141" FontFamily="Verdana"/>
+        <TextBox x:Name="profile_name" Foreground="White" Background="IndianRed" HorizontalAlignment="Left" Margin="13,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" FontFamily="Verdana" FontSize="14" Height="22"/>
+        <Label Content="Enter profile name" Foreground="Orange" HorizontalAlignment="Left" Margin="182,233,0,0" VerticalAlignment="Top" Width="141" FontFamily="Verdana"/>
+        <Label Content="Choose profile" Foreground="Orange" HorizontalAlignment="Left" Margin="487,13,0,0" VerticalAlignment="Top" Width="141" FontFamily="Verdana"/>
     </Grid>
 </Window>
